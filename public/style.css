@@ -1,0 +1,123 @@
+﻿h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+
+#p1 {
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#btn1 {
+    position: relative;
+    background-color: #000000;
+    border: none;
+    font-size: 23px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    width: 150px;
+    height: 38px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+    #btn1:after {
+        content: "";
+        background: #808080;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    #btn1:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+
+#btn2 {
+    position: relative;
+    background-color: #000000;
+    border: none;
+    font-size: 23px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    width: 150px;
+    height: 38px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+    #btn2:after {
+        content: "";
+        background: #808080;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+    }
+
+    #btn2:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+#p2 {
+
+    color: black;
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+
+}
+
+#p3
+{
+    font-size: 20px;
+
+}
+#p4 {
+    font-size: 20px;
+}
+#msg {
+    margin-right: 600px;
+}
+.img1 {
+    border-radius: 8px;
+    margin-left: 300px;
+}
+.img2 {
+    border-radius: 8px;
+    margin-left: 800px;
+    float: left;
+}
+.imgContainer {
+    float: left;
+    margin-left:350px;
+}
